@@ -160,7 +160,7 @@ function updateDirectionMarker(coords, bearing) {
             src: 'resources/arrow.svg',
             rotation: bearing * Math.PI / 180,
             rotateWithView: true,
-			scale: 0.025
+			scale: 0.005
         })
     }));
 }
