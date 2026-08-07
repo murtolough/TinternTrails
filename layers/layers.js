@@ -9,7 +9,7 @@ var wms_layers = [];
             
             source: new ol.source.XYZ({
             attributions: '<a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
-                url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
+                url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
 var format_TinternWalkingTrailstinterntrails_1 = new ol.format.GeoJSON();
