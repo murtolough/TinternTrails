@@ -159,7 +159,7 @@ function updateDirectionMarker(coords, bearing) {
         image: new ol.style.Icon({
             src: 'resources/arrow.svg',
             rotation: bearing * Math.PI / 180,
-            rotateWithView: true
+            rotateWithView: true,
 			scale: 0.15
         })
     }));
