@@ -46,7 +46,7 @@ function startTracking() {
         updateUserMarker(snappedPoint);
 
 	// Use the FIRST trail feature for now
-	const trailFeature = WalkingTrail_1.getSource().getFeatures()[0];
+	const trailFeature = lyr_TinternWalkingTrailstinterntrails_1.getSource().getFeatures()[0];
 
 	const bearing = getBearingOnTrail(snappedPoint, trailFeature);
 	updateDirectionMarker(snappedPoint, bearing);
