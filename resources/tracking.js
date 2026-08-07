@@ -109,7 +109,7 @@ function snapToTracks(userPoint) {
     let nearest = null;
     let nearestDist = Infinity;
 
-    WalkingTrail_1.getSource().getFeatures().forEach(function(feature) {
+    TinternWalkingTrailstinterntrails_1.getSource().getFeatures().forEach(function(feature) {
         const geom = feature.getGeometry().clone().transform('EPSG:3857', 'EPSG:4326');
         const gj = new ol.format.GeoJSON().writeGeometryObject(geom);
 
